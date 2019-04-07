@@ -2,6 +2,7 @@ package home;
 
 import common.MobileAPI;
 import home.mainpage;
+import org.junit.experimental.theories.suppliers.TestedOn;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -28,18 +29,31 @@ public class maintest extends mainpage {
 
     }
 
-    @Test
+
     public void burgerTest() {
         ObjOfApp.getMenu();
 
     }
 
-    @Test
+
     public void androidTabTest() {
         ObjOfApp.getMenu();
         ObjOfApp.Android();
     }
+    @Test
+    public void appleTabTest(){
+        ObjOfApp.getMenu();
+        ObjOfApp.Apple();
+}
 
+    public void noveltyTabTest(){
+        ObjOfApp.getMenu();
+        ObjOfApp.Novelty();
+    }
 
+    public void windowsTabTest(){
+        ObjOfApp.getMenu();
+        ObjOfApp.Windows();
+    }
 }
 

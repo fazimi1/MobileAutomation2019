@@ -10,27 +10,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class mainpage extends MobileAPI {
-//@FindBy(id = "com.android.packageinstaller:id/permission_allow_button")
-    //com.android.packageinstaller:id/permission_deny_button
-    //com.android.packageinstaller:id/permission_allow_button
+
     @FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.support.v7.widget.LinearLayoutCompat[2]/android.widget.CheckedTextView")
     public WebElement AndroidTab;
-   // @FindBy(id = "com.particlenews.newsbreak:id/fragment_user_guide_guest")
-@FindBy(id = "com.amc:id/tutorial_close_icon")
-public WebElement close;
-   @FindBy(id = "com.particlenews.newsbreak:id/fragment_user_guide_guest")
-    public WebElement guest;
-   @FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.widget.RelativeLayout/android.widget.LinearLayout[2]/android.widget.TextView")
-   public WebElement search;
-   ///hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.widget.RelativeLayout/android.widget.LinearLayout[2]/android.widget.TextView
-   @FindBy(xpath = "//android.widget.ImageButton[@content-desc=\"Open navigation drawer\"]")
+
+    @FindBy(xpath = "//android.widget.ImageButton[@content-desc=\"Open navigation drawer\"]")
     public WebElement Burger;
-    @FindBy(xpath = "//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.RelativeLayout[1]/android.view.View[1]/android.support.v7.widget.LinearLayoutCompat[1]/android.widget.TextView[1]")
-    public WebElement btnSearch;
-    @FindBy(xpath = "//android.widget.RelativeLayout[1]/android.widget.TextView[1]")
-    public WebElement txtPageHeading;
-    @FindBy(xpath = "//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.RelativeLayout[1]/android.view.View[1]/android.widget.LinearLayout[1]/android.widget.ImageView[1]")
-    public WebElement imgPageHeading;
+    @FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.support.v7.widget.LinearLayoutCompat[3]/android.widget.CheckedTextView")
+    public WebElement AppleTab;
+   @FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.support.v7.widget.LinearLayoutCompat[4]/android.widget.CheckedTextView")
+   public WebElement NoveltyTab;
+   @FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.support.v7.widget.LinearLayoutCompat[5]/android.widget.CheckedTextView")
+   public WebElement WindowsTab;
     @FindBy(xpath = "//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.RelativeLayout[1]/android.view.View[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]")
     public WebElement txtSectionTopHeadline;
     @FindBy(xpath = "//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[2]/android.support.v4.view.ViewPager[1]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]")
@@ -64,14 +55,17 @@ public WebElement close;
         AndroidTab.click();
     }
 
-    public void selectguest(){
-        guest.sendKeys(Keys.ENTER);
+    public void Apple(){
+        AppleTab.click();
+    }
+    public void Novelty(){
+        NoveltyTab.click();
+    }
+    public void Windows(){
+        WindowsTab.click();
     }
 
 
-    public void closeicon(){
-        close.click();
-    }
     ///hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.view.View
     public void getTopStories(){
         getMenu();
@@ -139,21 +133,8 @@ public WebElement close;
         scrollAndClickByName(mainMenuArr[12]);
         //Assert.assertTrue(txtPageHeading.getText().contains("TECH"));
     }
-    public void getRealEstate(){
-        getMenu();
-        scrollAndClickByName(mainMenuArr[13]);
-        Assert.assertTrue(txtPageHeading.getText().contains("REAL ESTATE"));
-    }
-    public void getPhotots(){
-        getMenu();
-        scrollAndClickByName(mainMenuArr[14]);
-        Assert.assertTrue(txtPageHeading.getText().contains("PHOTOS"));
-    }
-    public void getVideo(){
-        getMenu();
-        scrollAndClickByName(mainMenuArr[15]);
-        Assert.assertTrue(txtPageHeading.getText().contains("VIDEO"));
-    }
+
+
     public void getAbout() {
         getMenu();
         scrollAndClickByName(mainMenuArr[16]);

@@ -10,7 +10,7 @@
     <parameter name="moduleName" value="Android1"/>
     <parameter name="appName" value="Android 1 News from the world_v1.0_apkpure.com.apk"/>
 
-    <test name="Go to Home page" preserve-order="true">
+    <test name="Android1 News Test" preserve-order="true">
         <classes>
             <class name="home.maintest"/>
 
