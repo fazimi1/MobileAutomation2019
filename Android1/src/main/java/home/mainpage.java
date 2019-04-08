@@ -36,6 +36,14 @@ public class mainpage extends MobileAPI {
     public WebElement SecondLinkNovelty;
     @FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.TextView[3]")
     public WebElement FirstLinkWindows;
+    @FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[2]/android.widget.TextView[3]")
+    public WebElement SecondLinkAndroid;
+    @FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[2]/android.widget.TextView[3]")
+    public WebElement SecondLinkWindows;
+    @FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[3]/android.widget.TextView[3]")
+    public WebElement ThirdLinkApple;
+    @FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[3]/android.widget.TextView[3]")
+    public WebElement ThirdLinkAndroid;
 
 
     public void getMenu() {
@@ -78,6 +86,13 @@ public class mainpage extends MobileAPI {
         Search.sendKeys("Sony",Keys.ENTER);
     }
 
+    public void searchForHuawei(){
+        Search.sendKeys("Huawei",Keys.ENTER);
+    }
+    public void searchForOnePlus(){
+        Search.sendKeys("OnePlus",Keys.ENTER);
+    }
+
     public void clickFirstLink(){
         FirstLink.click();
     }
@@ -86,8 +101,20 @@ public class mainpage extends MobileAPI {
         FirstLinkAndroid.click();
     }
 
+    public void clickSecondLinkAndroid(){
+        SecondLinkAndroid.click();
+    }
+
+    public void clickThirdLinkAndroid(){
+        ThirdLinkAndroid.click();
+    }
+
     public void clickSecondLinkApple(){
         SecondLinkApple.click();
+    }
+
+    public void clickThirdLinkApple(){
+        ThirdLinkApple.click();
     }
 
     public void clickSecondLinkNovelty(){
@@ -96,6 +123,10 @@ public class mainpage extends MobileAPI {
 
     public void clickFirstLinkWindows(){
         FirstLinkWindows.click();
+    }
+
+    public void clickSecondLinkWindows(){
+        SecondLinkWindows.click();
     }
 
 }

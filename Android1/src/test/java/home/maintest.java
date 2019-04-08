@@ -70,6 +70,14 @@ public class maintest extends mainpage {
     public void searchBarTest4(){
         ObjOfApp.searchForSony();
     }
+    @Test
+    public void searchBarTest5(){
+        ObjOfApp.searchForHuawei();
+    }
+    @Test
+    public void searchBarTest6(){
+        ObjOfApp.searchForOnePlus();
+    }
 
     @Test
     public void firstLinkTest(){
@@ -80,6 +88,13 @@ public class maintest extends mainpage {
         ObjOfApp.getMenu();
         ObjOfApp.Android();
         ObjOfApp.clickFirstLinkAndroid();
+    }
+
+    @Test
+    public void secondLinkAndroidTest(){
+        ObjOfApp.getMenu();
+        ObjOfApp.Android();
+        ObjOfApp.clickSecondLinkAndroid();
     }
     @Test
     public void secondLinkAppleTest(){
@@ -98,6 +113,24 @@ public class maintest extends mainpage {
         ObjOfApp.getMenu();
         ObjOfApp.Windows();
         ObjOfApp.clickFirstLinkWindows();
+    }
+    @Test
+    public void secondLinkWindowsTest(){
+        ObjOfApp.getMenu();
+        ObjOfApp.Windows();
+        ObjOfApp.clickSecondLinkWindows();
+    }
+    @Test
+    public void thirdLinkAppleTest(){
+        ObjOfApp.getMenu();
+        ObjOfApp.Apple();
+        ObjOfApp.clickThirdLinkApple();
+    }
+    @Test
+    public void thirdLinkAndroidTest(){
+        ObjOfApp.getMenu();
+        ObjOfApp.Android();
+        ObjOfApp.clickThirdLinkAndroid();
     }
 }
 
