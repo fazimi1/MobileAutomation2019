@@ -23,37 +23,83 @@ public class maintest extends mainpage {
 
     mainpage ObjOfApp = null;
 
-    public void testArticles() {
-        mainpage mainPage = PageFactory.initElements(ad, mainpage.class);
-        mainPage.goToArticles();
-
-    }
-
-
+    @Test
     public void burgerTest() {
         ObjOfApp.getMenu();
 
     }
-
-
+    @Test
     public void androidTabTest() {
         ObjOfApp.getMenu();
         ObjOfApp.Android();
     }
     @Test
-    public void appleTabTest(){
+    public void appleTabTest() {
         ObjOfApp.getMenu();
         ObjOfApp.Apple();
-}
-
-    public void noveltyTabTest(){
+    }
+    @Test
+    public void noveltyTabTest() {
         ObjOfApp.getMenu();
         ObjOfApp.Novelty();
     }
-
-    public void windowsTabTest(){
+    @Test
+    public void windowsTabTest() {
         ObjOfApp.getMenu();
         ObjOfApp.Windows();
     }
+    @Test
+    public void allNewsTabTest(){
+        ObjOfApp.getMenu();
+        ObjOfApp.AllNews();
+    }
+    @Test
+    public void searchBarTest() {
+        ObjOfApp.searchForSamsung();
+    }
+
+    @Test
+    public void searchBarTest2() {
+        ObjOfApp.searchForApple();
+    }
+    @Test
+    public void searchBarTest3(){
+        ObjOfApp.searchForNokia();
+    }
+    @Test
+    public void searchBarTest4(){
+        ObjOfApp.searchForSony();
+    }
+
+    @Test
+    public void firstLinkTest(){
+        ObjOfApp.clickFirstLink();
+    }
+    @Test
+    public void firstLinkAndroidTest(){
+        ObjOfApp.getMenu();
+        ObjOfApp.Android();
+        ObjOfApp.clickFirstLinkAndroid();
+    }
+    @Test
+    public void secondLinkAppleTest(){
+        ObjOfApp.getMenu();
+        ObjOfApp.Apple();
+        ObjOfApp.clickSecondLinkApple();
+    }
+    @Test
+    public void secondLinkNoveltyTest(){
+        ObjOfApp.getMenu();
+        ObjOfApp.Novelty();
+        ObjOfApp.clickSecondLinkNovelty();
+    }
+    @Test
+    public void firstLinkWindowsTest(){
+        ObjOfApp.getMenu();
+        ObjOfApp.Windows();
+        ObjOfApp.clickFirstLinkWindows();
+    }
 }
+
+
 

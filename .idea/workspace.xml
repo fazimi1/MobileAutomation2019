@@ -2,29 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01154a8e-f1ab-467a-a8a3-19f3b90fa4cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Android1/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Android1/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Android1/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Android1/src/main/java/home/mainpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Android1/src/main/java/home/mainpage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android1/src/main/resources/A1TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Android1/src/test/java/resources/A1TestRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Android1/src/test/java/home/maintest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Android1/src/test/java/home/maintest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android1/target/Android1-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Android1/target/Android1-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android1/target/NewsBreak-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android1/target/classes/NBTestRunner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Android1/target/classes/home/mainpage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Android1/target/classes/home/mainpage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android1/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Android1/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Android1/target/test-classes/A1TestRunner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Android1/target/test-classes/home/maintest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Android1/target/test-classes/home/maintest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/common/MobileAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/common/MobileAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/common/MobileAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/common/MobileAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,28 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Android1/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="544">
               <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Android1/Extent-Report/ExtentReport.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8398">
-              <caret line="494" column="8" selection-start-line="494" selection-start-column="8" selection-end-line="494" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -69,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="170">
               <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
@@ -78,7 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/MobileAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1654">
+            <state relative-caret-position="1666">
               <caret line="131" column="40" selection-start-line="131" selection-start-column="40" selection-end-line="131" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -90,10 +56,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Android1/src/main/java/home/mainpage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-757">
+              <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3505#3506#0" expanded="true" />
+                <element signature="e#3535#3536#0" expanded="true" />
+                <element signature="e#3564#3565#0" expanded="true" />
+                <element signature="e#3598#3599#0" expanded="true" />
+                <element signature="e#3625#3626#0" expanded="true" />
+                <element signature="e#3657#3658#0" expanded="true" />
+                <element signature="e#3686#3687#0" expanded="true" />
+                <element signature="e#3720#3721#0" expanded="true" />
+                <element signature="e#3749#3750#0" expanded="true" />
+                <element signature="e#3783#3784#0" expanded="true" />
+                <element signature="e#4739#4740#0" expanded="true" />
+                <element signature="e#4764#4765#0" expanded="true" />
+                <element signature="e#4896#4897#0" expanded="true" />
+                <element signature="e#4948#4949#0" expanded="true" />
+                <element signature="e#4987#4988#0" expanded="true" />
+                <element signature="e#5020#5021#0" expanded="true" />
+                <element signature="e#5076#5077#0" expanded="true" />
+                <element signature="e#5109#5110#0" expanded="true" />
+                <element signature="e#3997#3998#0" expanded="true" />
+                <element signature="e#4030#4031#0" expanded="true" />
+                <element signature="e#4072#4073#0" expanded="true" />
+                <element signature="e#4112#4113#0" expanded="true" />
+                <element signature="e#4153#4154#0" expanded="true" />
+                <element signature="e#4192#4193#0" expanded="true" />
+                <element signature="e#4601#4602#0" expanded="true" />
+                <element signature="e#4635#4636#0" expanded="true" />
+                <element signature="e#4857#4858#0" expanded="true" />
+                <element signature="e#4888#4889#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Android1/src/test/java/resources/A1TestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="90">
+              <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -101,10 +107,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Android1/src/test/java/home/maintest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            <state relative-caret-position="-119">
+              <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1410#1411#0" expanded="true" />
+                <element signature="e#1451#1452#0" expanded="true" />
+                <element signature="e#1438#1439#0" expanded="true" />
+                <element signature="e#1461#1462#0" expanded="true" />
+                <element signature="e#1518#1519#0" expanded="true" />
+                <element signature="e#1558#1559#0" expanded="true" />
+                <element signature="e#1340#1341#0" expanded="true" />
+                <element signature="e#1363#1364#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,11 +160,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/Android1/pom.xml" />
-        <option value="$PROJECT_DIR$/Android1/src/main/java/home/mainpage.java" />
-        <option value="$PROJECT_DIR$/Android1/src/test/java/home/maintest.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/common/MobileAPI.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" />
         <option value="$PROJECT_DIR$/Android1/src/test/java/resources/A1TestRunner.xml" />
+        <option value="$PROJECT_DIR$/Android1/src/main/java/home/mainpage.java" />
+        <option value="$PROJECT_DIR$/Android1/src/test/java/home/maintest.java" />
       </list>
     </option>
   </component>
@@ -207,6 +221,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -336,12 +352,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554666763189" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554750033282" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -370,7 +384,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.maintest.appleTabTest">
+  <component name="RunManager" selected="TestNG.C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml">
     <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/main/resources/A1TestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Android1" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Android1/src/main/resources/A1TestRunner.xml" />
@@ -439,8 +453,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.maintest.appleTabTest" />
         <item itemvalue="TestNG.C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" />
+        <item itemvalue="TestNG.maintest.appleTabTest" />
         <item itemvalue="TestNG.C:/Users/fazli/MobileAutomation2019/Android1/src/main/resources/A1TestRunner.xml" />
         <item itemvalue="TestNG.maintest.burgerTest" />
         <item itemvalue="TestNG.C:/Users/fazli/MobileAutomation2019/NewsBreak/src/main/resources/NBTestRunner.xml" />
@@ -461,42 +475,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="maintest_burgerTest - 2019.04.07 at 13h 42m 30s.xml">
-      <configuration name="maintest.burgerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_main_resources_A1TestRunner_xml - 2019.04.07 at 13h 48m 50s.xml">
-      <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/main/resources/A1TestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_main_resources_A1TestRunner_xml - 2019.04.07 at 14h 04m 38s.xml">
-      <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/main/resources/A1TestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_main_resources_A1TestRunner_xml - 2019.04.07 at 14h 29m 30s.xml">
-      <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/main/resources/A1TestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.07 at 14h 33m 57s.xml">
-      <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.07 at 14h 48m 22s.xml">
-      <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.07 at 15h 29m 58s.xml">
-      <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.07 at 15h 31m 30s.xml">
-      <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.07 at 15h 34m 30s.xml">
       <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="maintest_appleTabTest - 2019.04.07 at 15h 49m 00s.xml">
       <configuration name="maintest.appleTabTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="maintest_appleTabTest - 2019.04.07 at 17h 54m 33s.xml">
+      <configuration name="maintest.appleTabTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="maintest_appleTabTest - 2019.04.07 at 17h 54m 48s.xml">
+      <configuration name="maintest.appleTabTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.07 at 17h 55m 36s.xml">
+      <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.08 at 13h 44m 49s.xml">
+      <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.08 at 14h 31m 27s.xml">
+      <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.08 at 14h 49m 35s.xml">
+      <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.08 at 14h 52m 45s.xml">
+      <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.08 at 14h 57m 43s.xml">
+      <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2582996" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25991902" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -505,7 +519,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3268206" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3268206" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -532,42 +546,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewsBreak/target/classes/home/mainpage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#7373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewsBreak/target/test-classes/home/maintest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <folding>
-            <element signature="e#0#846#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Android1/src/main/java/home/mainpage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-196">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4431#4432#0" expanded="true" />
-            <element signature="e#4461#4462#0" expanded="true" />
-            <element signature="e#3614#3615#0" expanded="true" />
-            <element signature="e#3637#3638#0" expanded="true" />
-            <element signature="e#3933#3934#0" expanded="true" />
-            <element signature="e#3958#3959#0" expanded="true" />
-            <element signature="e#4041#4042#0" expanded="true" />
-            <element signature="e#4066#4067#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsBreak/target/classes/home/mainpage.class" />
+    <entry file="file://$PROJECT_DIR$/NewsBreak/target/test-classes/home/maintest.class" />
     <entry file="file://$PROJECT_DIR$/MobileAutomation2019.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -575,20 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -613,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Android1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Android1/Extent-Report/ExtentReport.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8398">
@@ -627,9 +586,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/MobileAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1654">
+        <state relative-caret-position="1666">
           <caret line="131" column="40" selection-start-line="131" selection-start-column="40" selection-end-line="131" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -641,17 +621,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Android1/src/test/java/resources/A1TestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="90">
+          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android1/src/main/java/home/mainpage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-757">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3505#3506#0" expanded="true" />
+            <element signature="e#3535#3536#0" expanded="true" />
+            <element signature="e#3564#3565#0" expanded="true" />
+            <element signature="e#3598#3599#0" expanded="true" />
+            <element signature="e#3625#3626#0" expanded="true" />
+            <element signature="e#3657#3658#0" expanded="true" />
+            <element signature="e#3686#3687#0" expanded="true" />
+            <element signature="e#3720#3721#0" expanded="true" />
+            <element signature="e#3749#3750#0" expanded="true" />
+            <element signature="e#3783#3784#0" expanded="true" />
+            <element signature="e#4739#4740#0" expanded="true" />
+            <element signature="e#4764#4765#0" expanded="true" />
+            <element signature="e#4896#4897#0" expanded="true" />
+            <element signature="e#4948#4949#0" expanded="true" />
+            <element signature="e#4987#4988#0" expanded="true" />
+            <element signature="e#5020#5021#0" expanded="true" />
+            <element signature="e#5076#5077#0" expanded="true" />
+            <element signature="e#5109#5110#0" expanded="true" />
+            <element signature="e#3997#3998#0" expanded="true" />
+            <element signature="e#4030#4031#0" expanded="true" />
+            <element signature="e#4072#4073#0" expanded="true" />
+            <element signature="e#4112#4113#0" expanded="true" />
+            <element signature="e#4153#4154#0" expanded="true" />
+            <element signature="e#4192#4193#0" expanded="true" />
+            <element signature="e#4601#4602#0" expanded="true" />
+            <element signature="e#4635#4636#0" expanded="true" />
+            <element signature="e#4857#4858#0" expanded="true" />
+            <element signature="e#4888#4889#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Android1/src/test/java/home/maintest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        <state relative-caret-position="-119">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1410#1411#0" expanded="true" />
+            <element signature="e#1451#1452#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#1518#1519#0" expanded="true" />
+            <element signature="e#1558#1559#0" expanded="true" />
+            <element signature="e#1340#1341#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
           </folding>
         </state>
       </provider>
