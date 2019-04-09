@@ -44,7 +44,8 @@ public class mainpage extends MobileAPI {
     public WebElement ThirdLinkApple;
     @FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[3]/android.widget.TextView[3]")
     public WebElement ThirdLinkAndroid;
-
+    @FindBy(id = "com.android_1.clientapp:id/action_share")
+    public WebElement ShareButton;
 
     public void getMenu() {
         Burger.click();
@@ -129,5 +130,23 @@ public class mainpage extends MobileAPI {
         SecondLinkWindows.click();
     }
 
-}
+    public void clickFirstLinkAndroidShareButton(){
+        ShareButton.click();
+    }
+
+    public void clickSecondLinkAppleShareButton() {
+        ShareButton.click();
+    }
+
+    public void clickFirstLinkWindowsShareButton(){
+            ShareButton.click();
+    }
+
+    public void clickSecondLinkNoveltyShareButton(){
+        ShareButton.click();
+        }
+
+    }
+
+
 
