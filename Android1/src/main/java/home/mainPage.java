@@ -9,7 +9,7 @@ import org.testng.Assert;
 import java.util.ArrayList;
 import java.util.List;
 
-public class mainpage extends MobileAPI {
+public class mainPage extends MobileAPI {
 
     @FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.support.v7.widget.LinearLayoutCompat[2]/android.widget.CheckedTextView")
     public WebElement AndroidTab;
@@ -46,6 +46,8 @@ public class mainpage extends MobileAPI {
     public WebElement ThirdLinkAndroid;
     @FindBy(id = "com.android_1.clientapp:id/action_share")
     public WebElement ShareButton;
+    @FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.FrameLayout/android.widget.ImageView")
+    public WebElement ShareArticleURL;
 
     public void getMenu() {
         Burger.click();
@@ -90,9 +92,12 @@ public class mainpage extends MobileAPI {
     public void searchForHuawei(){
         Search.sendKeys("Huawei",Keys.ENTER);
     }
+
     public void searchForOnePlus(){
         Search.sendKeys("OnePlus",Keys.ENTER);
     }
+
+    public void searchForWindows(){Search.sendKeys("Windows",Keys.ENTER);}
 
     public void clickFirstLink(){
         FirstLink.click();
@@ -145,6 +150,11 @@ public class mainpage extends MobileAPI {
     public void clickSecondLinkNoveltyShareButton(){
         ShareButton.click();
         }
+
+        public void clickShareArticleURL(){
+
+        ShareArticleURL.click();
+    }
 
     }
 

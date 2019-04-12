@@ -4,12 +4,9 @@
     <list default="true" id="01154a8e-f1ab-467a-a8a3-19f3b90fa4cc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Android1/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Android1/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android1/src/main/java/home/mainpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Android1/src/main/java/home/mainpage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android1/src/test/java/home/maintest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Android1/src/test/java/home/maintest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Android1/src/main/java/home/mainpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Android1/src/main/java/home/mainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Android1/src/test/java/home/maintest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Android1/src/test/java/home/mainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Android1/src/test/java/resources/A1TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Android1/src/test/java/resources/A1TestRunner.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,23 +36,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Android1/src/test/java/home/maintest.java">
+        <entry file="file://$PROJECT_DIR$/Android1/src/test/java/home/mainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="179" column="5" lean-forward="true" selection-start-line="179" selection-start-column="5" selection-end-line="179" selection-end-column="5" />
+            <state relative-caret-position="17">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#587#588#0" expanded="true" />
                 <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
-                <element signature="e#767#768#0" expanded="true" />
-                <element signature="e#1408#1409#0" expanded="true" />
-                <element signature="e#1498#1499#0" expanded="true" />
-                <element signature="e#1587#1588#0" expanded="true" />
-                <element signature="e#1676#1677#0" expanded="true" />
-                <element signature="e#1766#1767#0" expanded="true" />
-                <element signature="e#1858#1859#0" expanded="true" />
-                <element signature="e#1947#1948#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,29 +51,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Android1/src/test/java/resources/A1TestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
+            <state relative-caret-position="170">
               <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Android1/src/main/java/home/mainpage.java">
+        <entry file="file://$PROJECT_DIR$/Android1/src/main/java/home/mainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
+            <state relative-caret-position="1302">
+              <caret line="99" column="71" selection-start-line="99" selection-start-column="71" selection-end-line="99" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#7561#7562#0" expanded="true" />
-                <element signature="e#7602#7603#0" expanded="true" />
-                <element signature="e#7769#7770#0" expanded="true" />
-                <element signature="e#7811#7812#0" expanded="true" />
                 <element signature="e#7837#7838#0" expanded="true" />
                 <element signature="e#7872#7873#0" expanded="true" />
-                <element signature="e#7929#7930#0" expanded="true" />
-                <element signature="e#7972#7973#0" expanded="true" />
-                <element signature="e#8037#8038#0" expanded="true" />
-                <element signature="e#8076#8077#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,6 +114,8 @@
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
         <option value="$PROJECT_DIR$/Android1/src/main/java/home/mainpage.java" />
         <option value="$PROJECT_DIR$/Android1/src/test/java/home/maintest.java" />
+        <option value="$PROJECT_DIR$/Android1/src/main/java/home/mainPage.java" />
+        <option value="$PROJECT_DIR$/Android1/src/test/java/home/mainTest.java" />
       </list>
     </option>
   </component>
@@ -325,7 +306,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554841153989" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555035210866" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -375,7 +356,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maintest.appleTabTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="mainTest.appleTabTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Android1" />
       <extension name="coverage">
         <pattern>
@@ -384,7 +365,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="home" />
-      <option name="MAIN_CLASS_NAME" value="home.maintest" />
+      <option name="MAIN_CLASS_NAME" value="home.mainTest" />
       <option name="METHOD_NAME" value="appleTabTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -393,7 +374,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maintest.burgerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="mainTest.burgerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Android1" />
       <extension name="coverage">
         <pattern>
@@ -402,7 +383,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="home" />
-      <option name="MAIN_CLASS_NAME" value="home.maintest" />
+      <option name="MAIN_CLASS_NAME" value="home.mainTest" />
       <option name="METHOD_NAME" value="burgerTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -411,7 +392,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maintest.secondLinkAppleShareButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="mainTest.secondLinkAppleShareButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Android1" />
       <extension name="coverage">
         <pattern>
@@ -420,7 +401,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="home" />
-      <option name="MAIN_CLASS_NAME" value="home.maintest" />
+      <option name="MAIN_CLASS_NAME" value="home.mainTest" />
       <option name="METHOD_NAME" value="secondLinkAppleShareButtonTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -432,10 +413,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" />
-        <item itemvalue="TestNG.maintest.secondLinkAppleShareButtonTest" />
-        <item itemvalue="TestNG.maintest.appleTabTest" />
+        <item itemvalue="TestNG.mainTest.secondLinkAppleShareButtonTest" />
+        <item itemvalue="TestNG.mainTest.appleTabTest" />
         <item itemvalue="TestNG.C:/Users/fazli/MobileAutomation2019/Android1/src/main/resources/A1TestRunner.xml" />
-        <item itemvalue="TestNG.maintest.burgerTest" />
+        <item itemvalue="TestNG.mainTest.burgerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -453,34 +434,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="maintest_secondLinkAppleShareButtonTest - 2019.04.09 at 15h 32m 44s.xml">
-      <configuration name="maintest.secondLinkAppleShareButtonTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.09 at 15h 33m 43s.xml">
+    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.11 at 21h 34m 41s.xml">
       <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.09 at 15h 34m 41s.xml">
+    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.11 at 21h 35m 49s.xml">
       <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.09 at 15h 39m 07s.xml">
+    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.11 at 21h 41m 06s.xml">
       <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.09 at 15h 39m 48s.xml">
+    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.11 at 21h 41m 55s.xml">
       <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.09 at 15h 40m 42s.xml">
+    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.11 at 21h 43m 01s.xml">
       <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.09 at 15h 42m 31s.xml">
+    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.11 at 21h 45m 00s.xml">
       <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.09 at 15h 45m 32s.xml">
+    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.11 at 21h 48m 50s.xml">
       <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.09 at 15h 46m 21s.xml">
+    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.11 at 21h 54m 47s.xml">
       <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.09 at 15h 49m 24s.xml">
+    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.11 at 22h 03m 36s.xml">
+      <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_fazli_MobileAutomation2019_Android1_src_test_java_resources_A1TestRunner_xml - 2019.04.11 at 22h 06m 10s.xml">
       <configuration name="C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -488,7 +469,7 @@
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639676" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26963562" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -497,7 +478,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3268206" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3268206" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -557,13 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Android1/Extent-Report/ExtentReport.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="494" column="8" selection-start-line="494" selection-start-column="8" selection-end-line="494" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -585,9 +559,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Android1/Extent-Report/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="494" column="8" selection-start-line="494" selection-start-column="8" selection-end-line="494" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Android1/src/test/java/resources/A1TestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
+        <state relative-caret-position="170">
           <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
         </state>
       </provider>
@@ -604,43 +585,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Android1/src/main/java/home/mainpage.java">
+    <entry file="file://$PROJECT_DIR$/Android1/src/main/java/home/mainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
+        <state relative-caret-position="1302">
+          <caret line="99" column="71" selection-start-line="99" selection-start-column="71" selection-end-line="99" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7561#7562#0" expanded="true" />
-            <element signature="e#7602#7603#0" expanded="true" />
-            <element signature="e#7769#7770#0" expanded="true" />
-            <element signature="e#7811#7812#0" expanded="true" />
             <element signature="e#7837#7838#0" expanded="true" />
             <element signature="e#7872#7873#0" expanded="true" />
-            <element signature="e#7929#7930#0" expanded="true" />
-            <element signature="e#7972#7973#0" expanded="true" />
-            <element signature="e#8037#8038#0" expanded="true" />
-            <element signature="e#8076#8077#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Android1/src/test/java/home/maintest.java">
+    <entry file="file://$PROJECT_DIR$/Android1/src/test/java/home/mainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="179" column="5" lean-forward="true" selection-start-line="179" selection-start-column="5" selection-end-line="179" selection-end-column="5" />
+        <state relative-caret-position="17">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#587#588#0" expanded="true" />
             <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#1408#1409#0" expanded="true" />
-            <element signature="e#1498#1499#0" expanded="true" />
-            <element signature="e#1587#1588#0" expanded="true" />
-            <element signature="e#1676#1677#0" expanded="true" />
-            <element signature="e#1766#1767#0" expanded="true" />
-            <element signature="e#1858#1859#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
           </folding>
         </state>
       </provider>
