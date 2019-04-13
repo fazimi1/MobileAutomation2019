@@ -1,19 +1,17 @@
 package home;
 
-import javafx.scene.layout.Priority;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
 
-public class mainTest extends mainPage {
+public class MainTest extends MainPage {
     @BeforeMethod
     public void initialize() {
-        ObjOfApp = PageFactory.initElements(ad, mainPage.class);
+        ObjOfApp = PageFactory.initElements(ad, MainPage.class);
     }
 
-    mainPage ObjOfApp = null;
+    MainPage ObjOfApp = null;
 
     @Test
     public void burgerTest() {

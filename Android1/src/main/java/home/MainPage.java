@@ -9,7 +9,7 @@ import org.testng.Assert;
 import java.util.ArrayList;
 import java.util.List;
 
-public class mainPage extends MobileAPI {
+public class MainPage extends MobileAPI {
 
     @FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.support.v7.widget.LinearLayoutCompat[2]/android.widget.CheckedTextView")
     public WebElement AndroidTab;

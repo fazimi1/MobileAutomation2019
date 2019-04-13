@@ -12,7 +12,7 @@
 
     <test name="Android1 News Test" preserve-order="true">
         <classes>
-            <class name="home.mainTest"/>
+            <class name="home.MainTest"/>
 
         </classes>
     </test>

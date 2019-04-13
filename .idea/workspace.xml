@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01154a8e-f1ab-467a-a8a3-19f3b90fa4cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android1/src/main/java/home/mainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Android1/src/main/java/home/mainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android1/src/test/java/home/mainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Android1/src/test/java/home/mainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Android1/src/main/java/home/mainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Android1/src/main/java/home/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Android1/src/test/java/home/mainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Android1/src/test/java/home/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Android1/src/test/java/resources/A1TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Android1/src/test/java/resources/A1TestRunner.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,10 +34,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Android1/src/test/java/home/mainTest.java">
+        <entry file="file://$PROJECT_DIR$/Android1/src/test/java/home/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3587">
-              <caret line="325" column="56" selection-start-line="325" selection-start-column="56" selection-end-line="325" selection-end-column="56" />
+            <state relative-caret-position="1972">
+              <caret line="121" selection-start-line="121" selection-end-line="121" />
             </state>
           </provider>
         </entry>
@@ -52,10 +52,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Android1/src/main/java/home/mainPage.java">
+        <entry file="file://$PROJECT_DIR$/Android1/src/main/java/home/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="153" column="28" lean-forward="true" selection-start-line="153" selection-start-column="28" selection-end-line="153" selection-end-column="28" />
+              <caret line="153" column="28" selection-start-line="153" selection-start-column="28" selection-end-line="153" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#6803#6804#0" expanded="true" />
@@ -120,6 +120,7 @@
         <option value="$PROJECT_DIR$/Android1/src/test/java/home/maintest.java" />
         <option value="$PROJECT_DIR$/Android1/src/main/java/home/mainPage.java" />
         <option value="$PROJECT_DIR$/Android1/src/test/java/home/mainTest.java" />
+        <option value="$PROJECT_DIR$/Android1/src/test/java/home/MainTest.java" />
       </list>
     </option>
   </component>
@@ -302,6 +303,13 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="reporting" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MobileAutomation2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileAutomation2019" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -310,7 +318,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555115666778" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555115777996" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -360,7 +368,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mainTest.appleTabTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.appleTabTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Android1" />
       <extension name="coverage">
         <pattern>
@@ -369,7 +377,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="home" />
-      <option name="MAIN_CLASS_NAME" value="home.mainTest" />
+      <option name="MAIN_CLASS_NAME" value="home.MainTest" />
       <option name="METHOD_NAME" value="appleTabTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -378,7 +386,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mainTest.burgerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.burgerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Android1" />
       <extension name="coverage">
         <pattern>
@@ -387,7 +395,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="home" />
-      <option name="MAIN_CLASS_NAME" value="home.mainTest" />
+      <option name="MAIN_CLASS_NAME" value="home.MainTest" />
       <option name="METHOD_NAME" value="burgerTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -396,7 +404,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mainTest.secondLinkAppleShareButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.secondLinkAppleShareButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Android1" />
       <extension name="coverage">
         <pattern>
@@ -405,7 +413,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="home" />
-      <option name="MAIN_CLASS_NAME" value="home.mainTest" />
+      <option name="MAIN_CLASS_NAME" value="home.MainTest" />
       <option name="METHOD_NAME" value="secondLinkAppleShareButtonTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -417,10 +425,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/fazli/MobileAutomation2019/Android1/src/test/java/resources/A1TestRunner.xml" />
-        <item itemvalue="TestNG.mainTest.secondLinkAppleShareButtonTest" />
-        <item itemvalue="TestNG.mainTest.appleTabTest" />
+        <item itemvalue="TestNG.MainTest.secondLinkAppleShareButtonTest" />
+        <item itemvalue="TestNG.MainTest.appleTabTest" />
         <item itemvalue="TestNG.C:/Users/fazli/MobileAutomation2019/Android1/src/main/resources/A1TestRunner.xml" />
-        <item itemvalue="TestNG.mainTest.burgerTest" />
+        <item itemvalue="TestNG.MainTest.burgerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -471,9 +479,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27125505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27125505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -482,7 +489,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3268206" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3268206" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -570,6 +577,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Android1/src/test/java/resources/A1TestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/MobileAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -582,17 +596,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Android1/src/test/java/resources/A1TestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Android1/src/main/java/home/mainPage.java">
+    <entry file="file://$PROJECT_DIR$/Android1/src/main/java/home/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="153" column="28" lean-forward="true" selection-start-line="153" selection-start-column="28" selection-end-line="153" selection-end-column="28" />
+          <caret line="153" column="28" selection-start-line="153" selection-start-column="28" selection-end-line="153" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#6803#6804#0" expanded="true" />
@@ -611,10 +618,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Android1/src/test/java/home/mainTest.java">
+    <entry file="file://$PROJECT_DIR$/Android1/src/test/java/home/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3587">
-          <caret line="325" column="56" selection-start-line="325" selection-start-column="56" selection-end-line="325" selection-end-column="56" />
+        <state relative-caret-position="1972">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
         </state>
       </provider>
     </entry>
