@@ -75,7 +75,6 @@ public class mainPage extends MobileAPI {
 
     public void searchForSamsung() {
         Search.sendKeys("Samsung", Keys.ENTER);
-
     }
     public void searchForApple(){
         Search.sendKeys("iphone",Keys.ENTER);
@@ -98,6 +97,18 @@ public class mainPage extends MobileAPI {
     }
 
     public void searchForWindows(){Search.sendKeys("Windows",Keys.ENTER);}
+
+    public void searchForMicrosoft(){
+        Search.sendKeys("Microsoft",Keys.ENTER);
+    }
+
+    public void searchForXperia(){
+        Search.sendKeys("Xperia",Keys.ENTER);
+    }
+
+    public void searchForAndroid(){
+        Search.sendKeys("Android", Keys.ENTER);
+    }
 
     public void clickFirstLink(){
         FirstLink.click();
@@ -136,6 +147,10 @@ public class mainPage extends MobileAPI {
     }
 
     public void clickFirstLinkAndroidShareButton(){
+        ShareButton.click();
+    }
+
+    public void clickSecondLinkAndroidShareButton() {
         ShareButton.click();
     }
 

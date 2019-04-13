@@ -1,6 +1,8 @@
 package home;
 
+import javafx.scene.layout.Priority;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
@@ -96,9 +98,28 @@ public class mainTest extends mainPage {
     }
 
     @Test
-    public void searchBarTest7(){
+    public void searchBarTest7() {
         TestLogger.log("Search for Windows Test");
         ObjOfApp.searchForWindows();
+    }
+
+    @Test
+    public void searchBarTest8() {
+        TestLogger.log("Search for Microsoft Test");
+        ObjOfApp.searchForMicrosoft();
+    }
+
+    @Test
+    public void searchBarTest9() {
+        TestLogger.log("Search for Xperia Test");
+        ObjOfApp.searchForXperia();
+
+    }
+
+    @Test
+    public void searchBarTest10() {
+        TestLogger.log("Search for Android Test");
+        ObjOfApp.searchForAndroid();
     }
 
     @Test
@@ -187,7 +208,7 @@ public class mainTest extends mainPage {
         ObjOfApp.clickThirdLinkAndroid();
     }
 
-     @Test
+    @Test
     public void firstLinkAndroidShareButtonTest() {
         TestLogger.log("Open Menu Test");
         ObjOfApp.getMenu();
@@ -199,7 +220,7 @@ public class mainTest extends mainPage {
         ObjOfApp.clickFirstLinkAndroidShareButton();
     }
 
-     @Test
+    @Test
     public void secondLinkAppleShareButtonTest() {
         TestLogger.log("Open Menu Test");
         ObjOfApp.getMenu();
@@ -211,7 +232,7 @@ public class mainTest extends mainPage {
         ObjOfApp.clickSecondLinkAppleShareButton();
     }
 
-     @Test
+    @Test
     public void firstLinkWindowsShareButtonTest() {
         TestLogger.log("Open Menu Test");
         ObjOfApp.getMenu();
@@ -250,7 +271,7 @@ public class mainTest extends mainPage {
 
     }
 
-     @Test
+    @Test
     public void shareArticleUrlWindowsFirstLink() {
         TestLogger.log("Open Menu Test");
         ObjOfApp.getMenu();
@@ -288,6 +309,20 @@ public class mainTest extends mainPage {
         ObjOfApp.clickSecondLinkNovelty();
         TestLogger.log("Select Share Button Test");
         ObjOfApp.clickSecondLinkNoveltyShareButton();
+        TestLogger.log("Select Share Article URl Test");
+        ObjOfApp.clickShareArticleURL();
+    }
+
+    @Test
+    public void shareArticleUrlAndroidSecondLink() {
+        TestLogger.log("Open menu Test");
+        ObjOfApp.getMenu();
+        TestLogger.log("Select Android Tab Test");
+        ObjOfApp.Android();
+        TestLogger.log("Select Second Link Test");
+        ObjOfApp.clickSecondLinkAndroid();
+        TestLogger.log("Select Share Button Test");
+        ObjOfApp.clickSecondLinkAndroidShareButton();
         TestLogger.log("Select Share Article URl Test");
         ObjOfApp.clickShareArticleURL();
     }
