@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="34" failed="0" total="34" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report DirectoryC:\Users\fazli\MobileAutomation2019\Android1\target\surefire-reports\html]]>
+    </line>
+  </reporter-output>
+  <suite name="home.MainTest" duration-ms="58" started-at="2019-04-14T03:37:40Z" finished-at="2019-04-14T03:37:40Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="58" started-at="2019-04-14T03:37:40Z" finished-at="2019-04-14T03:37:40Z">
+      <class name="home.MainTest">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.MainTest@2a2d45ba]" name="extentSetup" is-config="true" duration-ms="243" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@163e4e87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report DirectoryC:\Users\fazli\MobileAutomation2019\Android1\target\surefire-reports\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'OS' is required by @Configuration on method setUp but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'OS' is required by @Configuration on method setUp but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParameters(Parameters.java:148)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:197)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="SecondLinkNoveltyShareButtonTest()[pri:0, instance:home.MainTest@2a2d45ba]" name="SecondLinkNoveltyShareButtonTest" duration-ms="1" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondLinkNoveltyShareButtonTest -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="allNewsTabTest()[pri:0, instance:home.MainTest@2a2d45ba]" name="allNewsTabTest" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allNewsTabTest -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="androidTabTest()[pri:0, instance:home.MainTest@2a2d45ba]" name="androidTabTest" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidTabTest -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="appleTabTest()[pri:0, instance:home.MainTest@2a2d45ba]" name="appleTabTest" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleTabTest -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="burgerTest()[pri:0, instance:home.MainTest@2a2d45ba]" name="burgerTest" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- burgerTest -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="firstLinkAndroidShareButtonTest()[pri:0, instance:home.MainTest@2a2d45ba]" name="firstLinkAndroidShareButtonTest" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstLinkAndroidShareButtonTest -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="firstLinkAndroidTest()[pri:0, instance:home.MainTest@2a2d45ba]" name="firstLinkAndroidTest" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstLinkAndroidTest -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="firstLinkTest()[pri:0, instance:home.MainTest@2a2d45ba]" name="firstLinkTest" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstLinkTest -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="firstLinkWindowsShareButtonTest()[pri:0, instance:home.MainTest@2a2d45ba]" name="firstLinkWindowsShareButtonTest" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstLinkWindowsShareButtonTest -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="firstLinkWindowsTest()[pri:0, instance:home.MainTest@2a2d45ba]" name="firstLinkWindowsTest" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstLinkWindowsTest -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="noveltyTabTest()[pri:0, instance:home.MainTest@2a2d45ba]" name="noveltyTabTest" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noveltyTabTest -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="searchBarTest()[pri:0, instance:home.MainTest@2a2d45ba]" name="searchBarTest" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarTest -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="searchBarTest10()[pri:0, instance:home.MainTest@2a2d45ba]" name="searchBarTest10" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarTest10 -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="searchBarTest2()[pri:0, instance:home.MainTest@2a2d45ba]" name="searchBarTest2" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarTest2 -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="searchBarTest3()[pri:0, instance:home.MainTest@2a2d45ba]" name="searchBarTest3" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarTest3 -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="searchBarTest4()[pri:0, instance:home.MainTest@2a2d45ba]" name="searchBarTest4" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarTest4 -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="searchBarTest5()[pri:0, instance:home.MainTest@2a2d45ba]" name="searchBarTest5" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarTest5 -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="3" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="searchBarTest6()[pri:0, instance:home.MainTest@2a2d45ba]" name="searchBarTest6" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarTest6 -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="searchBarTest7()[pri:0, instance:home.MainTest@2a2d45ba]" name="searchBarTest7" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarTest7 -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="searchBarTest8()[pri:0, instance:home.MainTest@2a2d45ba]" name="searchBarTest8" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarTest8 -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="searchBarTest9()[pri:0, instance:home.MainTest@2a2d45ba]" name="searchBarTest9" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarTest9 -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="secondLinkAndroidTest()[pri:0, instance:home.MainTest@2a2d45ba]" name="secondLinkAndroidTest" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondLinkAndroidTest -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="secondLinkAppleShareButtonTest()[pri:0, instance:home.MainTest@2a2d45ba]" name="secondLinkAppleShareButtonTest" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondLinkAppleShareButtonTest -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="secondLinkAppleTest()[pri:0, instance:home.MainTest@2a2d45ba]" name="secondLinkAppleTest" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondLinkAppleTest -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="secondLinkNoveltyTest()[pri:0, instance:home.MainTest@2a2d45ba]" name="secondLinkNoveltyTest" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondLinkNoveltyTest -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="secondLinkWindowsTest()[pri:0, instance:home.MainTest@2a2d45ba]" name="secondLinkWindowsTest" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondLinkWindowsTest -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="shareArticleUrlAndroidFirstLink()[pri:0, instance:home.MainTest@2a2d45ba]" name="shareArticleUrlAndroidFirstLink" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareArticleUrlAndroidFirstLink -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="shareArticleUrlAndroidSecondLink()[pri:0, instance:home.MainTest@2a2d45ba]" name="shareArticleUrlAndroidSecondLink" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareArticleUrlAndroidSecondLink -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="shareArticleUrlAppleSecondLink()[pri:0, instance:home.MainTest@2a2d45ba]" name="shareArticleUrlAppleSecondLink" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareArticleUrlAppleSecondLink -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="shareArticleUrlNoveltySecondLink()[pri:0, instance:home.MainTest@2a2d45ba]" name="shareArticleUrlNoveltySecondLink" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareArticleUrlNoveltySecondLink -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="shareArticleUrlWindowsFirstLink()[pri:0, instance:home.MainTest@2a2d45ba]" name="shareArticleUrlWindowsFirstLink" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareArticleUrlWindowsFirstLink -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="thirdLinkAndroidTest()[pri:0, instance:home.MainTest@2a2d45ba]" name="thirdLinkAndroidTest" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdLinkAndroidTest -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="thirdLinkAppleTest()[pri:0, instance:home.MainTest@2a2d45ba]" name="thirdLinkAppleTest" duration-ms="1" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdLinkAppleTest -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.MainTest@2a2d45ba]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.MainTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="windowsTabTest()[pri:0, instance:home.MainTest@2a2d45ba]" name="windowsTabTest" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowsTabTest -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:home.MainTest@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.MainTest@2a2d45ba]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.MainTest@2a2d45ba]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="generateReport()[pri:0, instance:home.MainTest@2a2d45ba]" name="generateReport" is-config="true" duration-ms="0" started-at="2019-04-13T23:37:40Z" finished-at="2019-04-13T23:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- home.MainTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- home.MainTest -->
+</testng-results>

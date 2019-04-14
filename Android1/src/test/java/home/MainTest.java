@@ -18,7 +18,6 @@ public class MainTest extends MainPage {
         TestLogger.log("Open Menu");
         ObjOfApp.getMenu();
     }
-
     @Test
     public void androidTabTest() {
         TestLogger.log("Open Menu");
@@ -26,7 +25,6 @@ public class MainTest extends MainPage {
         TestLogger.log("Select Android Tab");
         ObjOfApp.Android();
     }
-
     @Test
     public void appleTabTest() {
         TestLogger.log("Open Menu");
@@ -34,7 +32,6 @@ public class MainTest extends MainPage {
         TestLogger.log("Select Apple Tab");
         ObjOfApp.Apple();
     }
-
     @Test
     public void noveltyTabTest() {
         TestLogger.log("Open Menu");
@@ -42,7 +39,6 @@ public class MainTest extends MainPage {
         TestLogger.log("Select Novelty Tab");
         ObjOfApp.Novelty();
     }
-
     @Test
     public void windowsTabTest() {
         TestLogger.log("Open Menu");
@@ -50,7 +46,6 @@ public class MainTest extends MainPage {
         TestLogger.log("Select Windows Tab");
         ObjOfApp.Windows();
     }
-
     @Test
     public void allNewsTabTest() {
         TestLogger.log("Open Menu");
@@ -58,31 +53,26 @@ public class MainTest extends MainPage {
         TestLogger.log("Select All News Tab");
         ObjOfApp.AllNews();
     }
-
     @Test
     public void searchBarTest() {
         TestLogger.log("Search for Samsung Test");
         ObjOfApp.searchForSamsung();
     }
-
     @Test
     public void searchBarTest2() {
         TestLogger.log("Search for Apple Test");
         ObjOfApp.searchForApple();
     }
-
     @Test
     public void searchBarTest3() {
         TestLogger.log("Search for Nokia Test");
         ObjOfApp.searchForNokia();
     }
-
     @Test
     public void searchBarTest4() {
         TestLogger.log("Search for Sony Test");
         ObjOfApp.searchForSony();
     }
-
     @Test
     public void searchBarTest5() {
         TestLogger.log("Search for Huawei Test");
@@ -313,15 +303,15 @@ public class MainTest extends MainPage {
 
     @Test
     public void shareArticleUrlAndroidSecondLink() {
-        TestLogger.log("Open menu Test");
-        ObjOfApp.getMenu();
-        TestLogger.log("Select Android Tab Test");
-        ObjOfApp.Android();
-        TestLogger.log("Select Second Link Test");
-        ObjOfApp.clickSecondLinkAndroid();
-        TestLogger.log("Select Share Button Test");
-        ObjOfApp.clickSecondLinkAndroidShareButton();
-        TestLogger.log("Select Share Article URl Test");
-        ObjOfApp.clickShareArticleURL();
-    }
+    TestLogger.log("Open menu Test");
+    ObjOfApp.getMenu();
+    TestLogger.log("Select Android Tab Test");
+    ObjOfApp.Android();
+    TestLogger.log("Select Second Link Test");
+    ObjOfApp.clickSecondLinkAndroid();
+    TestLogger.log("Select Share Button Test");
+    ObjOfApp.clickSecondLinkAndroidShareButton();
+    TestLogger.log("Select Share Article URl Test");
+    ObjOfApp.clickShareArticleURL();
+}
 }

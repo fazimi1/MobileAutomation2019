@@ -157,7 +157,8 @@ public class MobileAPI {
         }else if(OS.contains("Android")){
             if(appType.contains("Phone")){
                 appDirectory = new File("src/app/");
-                findApp = new File(appDirectory,"Android 1 News from the world_v1.0_apkpure.com.apk");
+                findApp = new File(appDirectory,"Android 1 News from the world_v1.0_apkpure.com.apk,");
+                findApp = new File(appDirectory,"New York Post for Phone_v3.1.8_apkpure.com (1).apk");
                 if(deviceType.equalsIgnoreCase("RealDevice")){
                     cap = new DesiredCapabilities();
                     cap.setCapability(MobileCapabilityType.DEVICE_NAME,deviceName);

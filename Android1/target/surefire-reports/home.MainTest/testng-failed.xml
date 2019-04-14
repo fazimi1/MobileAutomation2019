@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [home.MainTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="home.MainTest">
+        <methods>
+          <include name="firstLinkWindowsShareButtonTest"/>
+          <include name="searchBarTest"/>
+          <include name="shareArticleUrlAppleSecondLink"/>
+          <include name="shareArticleUrlNoveltySecondLink"/>
+          <include name="firstLinkWindowsTest"/>
+          <include name="extentSetup"/>
+          <include name="burgerTest"/>
+          <include name="thirdLinkAppleTest"/>
+          <include name="windowsTabTest"/>
+          <include name="allNewsTabTest"/>
+          <include name="secondLinkWindowsTest"/>
+          <include name="shareArticleUrlWindowsFirstLink"/>
+          <include name="SecondLinkNoveltyShareButtonTest"/>
+          <include name="searchBarTest10"/>
+          <include name="secondLinkAndroidTest"/>
+          <include name="firstLinkAndroidTest"/>
+          <include name="searchBarTest2"/>
+          <include name="secondLinkNoveltyTest"/>
+          <include name="secondLinkAppleTest"/>
+          <include name="shareArticleUrlAndroidFirstLink"/>
+          <include name="appleTabTest"/>
+          <include name="androidTabTest"/>
+          <include name="shareArticleUrlAndroidSecondLink"/>
+          <include name="thirdLinkAndroidTest"/>
+          <include name="searchBarTest7"/>
+          <include name="searchBarTest8"/>
+          <include name="searchBarTest5"/>
+          <include name="searchBarTest6"/>
+          <include name="secondLinkAppleShareButtonTest"/>
+          <include name="firstLinkTest"/>
+          <include name="searchBarTest9"/>
+          <include name="firstLinkAndroidShareButtonTest"/>
+          <include name="searchBarTest3"/>
+          <include name="noveltyTabTest"/>
+          <include name="searchBarTest4"/>
+        </methods>
+      </class> <!-- home.MainTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [home.MainTest] -->

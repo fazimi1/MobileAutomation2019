@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Android1" />
         <module name="Generic" />
+        <module name="NYP" />
+        <module name="UiCatalog" />
       </profile>
     </annotationProcessing>
   </component>

@@ -11,7 +11,22 @@
     <modules>
         <module>Generic</module>
         <module>Android1</module>
+        <module>NYP</module>
+        <module>UiCatalog</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>MobileAutomation2019</groupId>
+            <artifactId>Generic</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>MobileAutomation2019</groupId>
+            <artifactId>Generic</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
     <dependencyManagement>
         <dependencies>

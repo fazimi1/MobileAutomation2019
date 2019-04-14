@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-home.MainTest">
+              <span class="suite-name border-skipped">home.MainTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-home.MainTest">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-home.MainTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-home.MainTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-home.MainTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-home.MainTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-home.MainTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-home.MainTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">34 methods,  34 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-home.MainTest" class="hide-methods skipped suite-home.MainTest"> (hide)</a> <!-- hide-methods skipped suite-home.MainTest -->
+                      <a href="#" panel-name="suite-home.MainTest" class="show-methods skipped suite-home.MainTest"> (show)</a> <!-- show-methods skipped suite-home.MainTest -->
+                    </span>
+                    <div class="method-list-content skipped suite-home.MainTest">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="SecondLinkNoveltyShareButtonTest">SecondLinkNoveltyShareButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="allNewsTabTest">allNewsTabTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="androidTabTest">androidTabTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="appleTabTest">appleTabTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="burgerTest">burgerTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="firstLinkAndroidShareButtonTest">firstLinkAndroidShareButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="firstLinkAndroidTest">firstLinkAndroidTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="firstLinkTest">firstLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="firstLinkWindowsShareButtonTest">firstLinkWindowsShareButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="firstLinkWindowsTest">firstLinkWindowsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="noveltyTabTest">noveltyTabTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="searchBarTest">searchBarTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="searchBarTest10">searchBarTest10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="searchBarTest2">searchBarTest2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="searchBarTest3">searchBarTest3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="searchBarTest4">searchBarTest4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="searchBarTest5">searchBarTest5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="searchBarTest6">searchBarTest6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="searchBarTest7">searchBarTest7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="searchBarTest8">searchBarTest8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="searchBarTest9">searchBarTest9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="secondLinkAndroidTest">secondLinkAndroidTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="secondLinkAppleShareButtonTest">secondLinkAppleShareButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="secondLinkAppleTest">secondLinkAppleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="secondLinkNoveltyTest">secondLinkNoveltyTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="secondLinkWindowsTest">secondLinkWindowsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="shareArticleUrlAndroidFirstLink">shareArticleUrlAndroidFirstLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="shareArticleUrlAndroidSecondLink">shareArticleUrlAndroidSecondLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="shareArticleUrlAppleSecondLink">shareArticleUrlAppleSecondLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="shareArticleUrlNoveltySecondLink">shareArticleUrlNoveltySecondLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="shareArticleUrlWindowsFirstLink">shareArticleUrlWindowsFirstLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="thirdLinkAndroidTest">thirdLinkAndroidTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="thirdLinkAppleTest">thirdLinkAppleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-home.MainTest" title="home.MainTest" hash-for-method="windowsTabTest">windowsTabTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-home.MainTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-home.MainTest" class="panel home.MainTest">
+          <div class="suite-home.MainTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">home.MainTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SecondLinkNoveltyShareButtonTest">
+                  </a> <!-- SecondLinkNoveltyShareButtonTest -->
+                  <span class="method-name">SecondLinkNoveltyShareButtonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allNewsTabTest">
+                  </a> <!-- allNewsTabTest -->
+                  <span class="method-name">allNewsTabTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="androidTabTest">
+                  </a> <!-- androidTabTest -->
+                  <span class="method-name">androidTabTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="appleTabTest">
+                  </a> <!-- appleTabTest -->
+                  <span class="method-name">appleTabTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="burgerTest">
+                  </a> <!-- burgerTest -->
+                  <span class="method-name">burgerTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="firstLinkAndroidShareButtonTest">
+                  </a> <!-- firstLinkAndroidShareButtonTest -->
+                  <span class="method-name">firstLinkAndroidShareButtonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="firstLinkAndroidTest">
+                  </a> <!-- firstLinkAndroidTest -->
+                  <span class="method-name">firstLinkAndroidTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="firstLinkTest">
+                  </a> <!-- firstLinkTest -->
+                  <span class="method-name">firstLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="firstLinkWindowsShareButtonTest">
+                  </a> <!-- firstLinkWindowsShareButtonTest -->
+                  <span class="method-name">firstLinkWindowsShareButtonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="firstLinkWindowsTest">
+                  </a> <!-- firstLinkWindowsTest -->
+                  <span class="method-name">firstLinkWindowsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="noveltyTabTest">
+                  </a> <!-- noveltyTabTest -->
+                  <span class="method-name">noveltyTabTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchBarTest">
+                  </a> <!-- searchBarTest -->
+                  <span class="method-name">searchBarTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchBarTest10">
+                  </a> <!-- searchBarTest10 -->
+                  <span class="method-name">searchBarTest10</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchBarTest2">
+                  </a> <!-- searchBarTest2 -->
+                  <span class="method-name">searchBarTest2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchBarTest3">
+                  </a> <!-- searchBarTest3 -->
+                  <span class="method-name">searchBarTest3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchBarTest4">
+                  </a> <!-- searchBarTest4 -->
+                  <span class="method-name">searchBarTest4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchBarTest5">
+                  </a> <!-- searchBarTest5 -->
+                  <span class="method-name">searchBarTest5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchBarTest6">
+                  </a> <!-- searchBarTest6 -->
+                  <span class="method-name">searchBarTest6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchBarTest7">
+                  </a> <!-- searchBarTest7 -->
+                  <span class="method-name">searchBarTest7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchBarTest8">
+                  </a> <!-- searchBarTest8 -->
+                  <span class="method-name">searchBarTest8</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchBarTest9">
+                  </a> <!-- searchBarTest9 -->
+                  <span class="method-name">searchBarTest9</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="secondLinkAndroidTest">
+                  </a> <!-- secondLinkAndroidTest -->
+                  <span class="method-name">secondLinkAndroidTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="secondLinkAppleShareButtonTest">
+                  </a> <!-- secondLinkAppleShareButtonTest -->
+                  <span class="method-name">secondLinkAppleShareButtonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="secondLinkAppleTest">
+                  </a> <!-- secondLinkAppleTest -->
+                  <span class="method-name">secondLinkAppleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="secondLinkNoveltyTest">
+                  </a> <!-- secondLinkNoveltyTest -->
+                  <span class="method-name">secondLinkNoveltyTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="secondLinkWindowsTest">
+                  </a> <!-- secondLinkWindowsTest -->
+                  <span class="method-name">secondLinkWindowsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareArticleUrlAndroidFirstLink">
+                  </a> <!-- shareArticleUrlAndroidFirstLink -->
+                  <span class="method-name">shareArticleUrlAndroidFirstLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareArticleUrlAndroidSecondLink">
+                  </a> <!-- shareArticleUrlAndroidSecondLink -->
+                  <span class="method-name">shareArticleUrlAndroidSecondLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareArticleUrlAppleSecondLink">
+                  </a> <!-- shareArticleUrlAppleSecondLink -->
+                  <span class="method-name">shareArticleUrlAppleSecondLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareArticleUrlNoveltySecondLink">
+                  </a> <!-- shareArticleUrlNoveltySecondLink -->
+                  <span class="method-name">shareArticleUrlNoveltySecondLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareArticleUrlWindowsFirstLink">
+                  </a> <!-- shareArticleUrlWindowsFirstLink -->
+                  <span class="method-name">shareArticleUrlWindowsFirstLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="thirdLinkAndroidTest">
+                  </a> <!-- thirdLinkAndroidTest -->
+                  <span class="method-name">thirdLinkAndroidTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="thirdLinkAppleTest">
+                  </a> <!-- thirdLinkAppleTest -->
+                  <span class="method-name">thirdLinkAppleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="windowsTabTest">
+                  </a> <!-- windowsTabTest -->
+                  <span class="method-name">windowsTabTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-home.MainTest-class-skipped -->
+        </div> <!-- panel home.MainTest -->
+        <div panel-name="test-xml-home.MainTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;home.MainTest&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;home.MainTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- home.MainTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-home.MainTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for home.MainTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-home.MainTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for home.MainTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-home.MainTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for home.MainTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_home.MainTest');
+function tableData_home.MainTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(34);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'thirdLinkAppleTest')
+data.setCell(0, 2, 'home.MainTest')
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SecondLinkNoveltyShareButtonTest')
+data.setCell(1, 2, 'home.MainTest')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'secondLinkAppleTest')
+data.setCell(2, 2, 'home.MainTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'searchBarTest')
+data.setCell(3, 2, 'home.MainTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'shareArticleUrlAndroidSecondLink')
+data.setCell(4, 2, 'home.MainTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'noveltyTabTest')
+data.setCell(5, 2, 'home.MainTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'searchBarTest8')
+data.setCell(6, 2, 'home.MainTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'firstLinkAndroidTest')
+data.setCell(7, 2, 'home.MainTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'shareArticleUrlAndroidFirstLink')
+data.setCell(8, 2, 'home.MainTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'thirdLinkAndroidTest')
+data.setCell(9, 2, 'home.MainTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'secondLinkAndroidTest')
+data.setCell(10, 2, 'home.MainTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'androidTabTest')
+data.setCell(11, 2, 'home.MainTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'appleTabTest')
+data.setCell(12, 2, 'home.MainTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'secondLinkWindowsTest')
+data.setCell(13, 2, 'home.MainTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'shareArticleUrlWindowsFirstLink')
+data.setCell(14, 2, 'home.MainTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'burgerTest')
+data.setCell(15, 2, 'home.MainTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'firstLinkWindowsTest')
+data.setCell(16, 2, 'home.MainTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'shareArticleUrlAppleSecondLink')
+data.setCell(17, 2, 'home.MainTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'searchBarTest10')
+data.setCell(18, 2, 'home.MainTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'searchBarTest7')
+data.setCell(19, 2, 'home.MainTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'searchBarTest4')
+data.setCell(20, 2, 'home.MainTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'firstLinkTest')
+data.setCell(21, 2, 'home.MainTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'firstLinkAndroidShareButtonTest')
+data.setCell(22, 2, 'home.MainTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'secondLinkAppleShareButtonTest')
+data.setCell(23, 2, 'home.MainTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'searchBarTest6')
+data.setCell(24, 2, 'home.MainTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'searchBarTest9')
+data.setCell(25, 2, 'home.MainTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'allNewsTabTest')
+data.setCell(26, 2, 'home.MainTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'secondLinkNoveltyTest')
+data.setCell(27, 2, 'home.MainTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'shareArticleUrlNoveltySecondLink')
+data.setCell(28, 2, 'home.MainTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'firstLinkWindowsShareButtonTest')
+data.setCell(29, 2, 'home.MainTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'searchBarTest3')
+data.setCell(30, 2, 'home.MainTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'searchBarTest2')
+data.setCell(31, 2, 'home.MainTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'searchBarTest5')
+data.setCell(32, 2, 'home.MainTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'windowsTabTest')
+data.setCell(33, 2, 'home.MainTest')
+data.setCell(33, 3, 0);
+window.suiteTableData['home.MainTest']= { tableData: data, tableDiv: 'times-div-home.MainTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 ms</span>
+              <div id="times-div-home.MainTest">
+              </div> <!-- times-div-home.MainTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-home.MainTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for home.MainTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-home.MainTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-home.MainTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">home.MainTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@163e4e87)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">SecondLinkNoveltyShareButtonTest</span>
+                <span class="method-start">253 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">allNewsTabTest</span>
+                <span class="method-start">257 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">androidTabTest</span>
+                <span class="method-start">258 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">appleTabTest</span>
+                <span class="method-start">260 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">burgerTest</span>
+                <span class="method-start">261 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">firstLinkAndroidShareButtonTest</span>
+                <span class="method-start">261 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">firstLinkAndroidTest</span>
+                <span class="method-start">262 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">firstLinkTest</span>
+                <span class="method-start">263 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">firstLinkWindowsShareButtonTest</span>
+                <span class="method-start">264 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">firstLinkWindowsTest</span>
+                <span class="method-start">266 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">noveltyTabTest</span>
+                <span class="method-start">267 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchBarTest</span>
+                <span class="method-start">268 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchBarTest10</span>
+                <span class="method-start">270 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchBarTest2</span>
+                <span class="method-start">271 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchBarTest3</span>
+                <span class="method-start">272 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchBarTest4</span>
+                <span class="method-start">273 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchBarTest5</span>
+                <span class="method-start">274 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchBarTest6</span>
+                <span class="method-start">278 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchBarTest7</span>
+                <span class="method-start">279 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchBarTest8</span>
+                <span class="method-start">280 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchBarTest9</span>
+                <span class="method-start">281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">secondLinkAndroidTest</span>
+                <span class="method-start">282 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">secondLinkAppleShareButtonTest</span>
+                <span class="method-start">283 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">secondLinkAppleTest</span>
+                <span class="method-start">286 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">secondLinkNoveltyTest</span>
+                <span class="method-start">289 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">secondLinkWindowsTest</span>
+                <span class="method-start">292 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shareArticleUrlAndroidFirstLink</span>
+                <span class="method-start">293 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shareArticleUrlAndroidSecondLink</span>
+                <span class="method-start">295 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shareArticleUrlAppleSecondLink</span>
+                <span class="method-start">296 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shareArticleUrlNoveltySecondLink</span>
+                <span class="method-start">297 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shareArticleUrlWindowsFirstLink</span>
+                <span class="method-start">298 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">thirdLinkAndroidTest</span>
+                <span class="method-start">299 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">thirdLinkAppleTest</span>
+                <span class="method-start">299 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">windowsTabTest</span>
+                <span class="method-start">300 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
