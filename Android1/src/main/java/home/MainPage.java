@@ -69,84 +69,87 @@ public class MainPage extends MobileAPI {
         WindowsTab.click();
     }
 
-    public void AllNews(){
+    public void AllNews() {
         AllNewsTab.click();
     }
 
     public void searchForSamsung() {
         Search.sendKeys("Samsung", Keys.ENTER);
     }
-    public void searchForApple(){
-        Search.sendKeys("iphone",Keys.ENTER);
+
+    public void searchForApple() {
+        Search.sendKeys("iphone", Keys.ENTER);
     }
 
-    public void searchForNokia(){
-        Search.sendKeys("Nokia",Keys.ENTER);
+    public void searchForNokia() {
+        Search.sendKeys("Nokia", Keys.ENTER);
     }
 
-    public void searchForSony(){
-        Search.sendKeys("Sony",Keys.ENTER);
+    public void searchForSony() {
+        Search.sendKeys("Sony", Keys.ENTER);
     }
 
-    public void searchForHuawei(){
-        Search.sendKeys("Huawei",Keys.ENTER);
+    public void searchForHuawei() {
+        Search.sendKeys("Huawei", Keys.ENTER);
     }
 
-    public void searchForOnePlus(){
-        Search.sendKeys("OnePlus",Keys.ENTER);
+    public void searchForOnePlus() {
+        Search.sendKeys("OnePlus", Keys.ENTER);
     }
 
-    public void searchForWindows(){Search.sendKeys("Windows",Keys.ENTER);}
-
-    public void searchForMicrosoft(){
-        Search.sendKeys("Microsoft",Keys.ENTER);
+    public void searchForWindows() {
+        Search.sendKeys("Windows", Keys.ENTER);
     }
 
-    public void searchForXperia(){
-        Search.sendKeys("Xperia",Keys.ENTER);
+    public void searchForMicrosoft() {
+        Search.sendKeys("Microsoft", Keys.ENTER);
     }
 
-    public void searchForAndroid(){
+    public void searchForXperia() {
+        Search.sendKeys("Xperia", Keys.ENTER);
+    }
+
+    public void searchForAndroid() {
         Search.sendKeys("Android", Keys.ENTER);
     }
 
-    public void clickFirstLink(){
+    public void clickFirstLink() {
         FirstLink.click();
     }
 
-    public void clickFirstLinkAndroid(){
+    public void clickFirstLinkAndroid() {
         FirstLinkAndroid.click();
     }
 
-    public void clickSecondLinkAndroid(){
+    public void clickSecondLinkAndroid() {
         SecondLinkAndroid.click();
     }
 
-    public void clickThirdLinkAndroid(){
+    public void clickThirdLinkAndroid() {
         ThirdLinkAndroid.click();
     }
 
-    public void clickSecondLinkApple(){
+    public void clickSecondLinkApple() {
         SecondLinkApple.click();
     }
 
-    public void clickThirdLinkApple(){
+    public void clickThirdLinkApple() {
         ThirdLinkApple.click();
     }
 
-    public void clickSecondLinkNovelty(){
+    public void clickSecondLinkNovelty() {
         SecondLinkNovelty.click();
     }
 
-    public void clickFirstLinkWindows(){
+    public void clickFirstLinkWindows() {
         FirstLinkWindows.click();
     }
 
-    public void clickSecondLinkWindows(){
+    public void clickSecondLinkWindows() {
         SecondLinkWindows.click();
     }
 
-    public void clickFirstLinkAndroidShareButton(){
+    public void clickFirstLinkAndroidShareButton() {
         ShareButton.click();
     }
 
@@ -158,20 +161,20 @@ public class MainPage extends MobileAPI {
         ShareButton.click();
     }
 
-    public void clickFirstLinkWindowsShareButton(){
-            ShareButton.click();
+    public void clickFirstLinkWindowsShareButton() {
+        ShareButton.click();
     }
 
-    public void clickSecondLinkNoveltyShareButton(){
+    public void clickSecondLinkNoveltyShareButton() {
         ShareButton.click();
-        }
+    }
 
-        public void clickShareArticleURL(){
+    public void clickShareArticleURL() {
 
         ShareArticleURL.click();
     }
 
-    }
+}
 
 
 
